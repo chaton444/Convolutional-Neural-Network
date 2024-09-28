@@ -1,0 +1,16 @@
+train: C:/Users/chato/OneDrive/Escritorio/ProyectoTitulacion/data/images/train
+val: C:/Users/chato/OneDrive/Escritorio/ProyectoTitulacion/data/images/val
+test: # test images (optional)
+
+# Classes
+names:
+  0: placas
+
+format: 'coco'
+
+# path to data labels
+train: C:/Users/chato/OneDrive/Escritorio/ProyectoTitulacion/data/labels/train
+val: C:/Users/chato/OneDrive/Escritorio/ProyectoTitulacion/data/labels/val
+
+# Download script/URL (optional)
+download: https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip
